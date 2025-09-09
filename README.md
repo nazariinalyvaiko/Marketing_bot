@@ -9,29 +9,9 @@
 
 ## 🚀 Live Demo
 
-## 📸 Screenshots
-
-### Main Dashboard
-![Main Dashboard](screenshots/main_dashboard.png)
-*Marketing Bot Pro main interface with customer segmentation and campaign management*
-
-### AI Content Generation
-![Content Generation](screenshots/content_generation.png)
-*AI-powered content generation for emails and social media posts*
-
-### Customer Segmentation
-![RFM Analysis](screenshots/rfm_analysis.png)
-*Advanced RFM analysis with 10 customer segments*
-
-### Campaign Management
-![Campaign Dashboard](screenshots/campaign_dashboard.png)
-*Multi-channel campaign management and analytics*
-
-
 - **Web Interface**: http://localhost:8501
 - **CLI Commands**: `python -m marketing_bot.main --help`
 - **Full Demo**: `python demo_full_functionality.py`
-
 ## 📊 Business Impact
 
 | Metric | Before | After | Improvement |
