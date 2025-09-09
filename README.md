@@ -126,24 +126,7 @@ python -m marketing_bot.main segment --show
 python -m marketing_bot.main generate --preview
 ```
 
-## 📊 Screenshots
-
-### **Main Dashboard**
-![Main Dashboard](portfolio/screenshots/dashboard.png)
-*Professional dashboard with gradient header and clean layout*
-
-### **RFM Segmentation**
-![RFM Segmentation](portfolio/screenshots/segmentation.png)
-*Customer segmentation with visual analytics and segment distribution*
-
-### **AI Content Generation**
-![Content Generation](portfolio/screenshots/content-generation.png)
-*AI-powered content generation with tone and platform selection*
-
-### **Campaign Management**
 ![Campaign Management](portfolio/screenshots/campaigns.png)
-*Campaign creation and management with contact statistics*
-
 ## 🧪 Testing & Demo
 
 ### **Run Full Demo**
