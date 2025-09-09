@@ -2,12 +2,31 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.49+-red.svg)](https://streamlit.io)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)](https://openai.com)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--5-green.svg)](https://openai.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **A comprehensive marketing automation platform that combines AI-powered content generation, advanced customer segmentation (RFM analysis), and multi-channel campaign management.**
 
 ## 🚀 Live Demo
+
+## 📸 Screenshots
+
+### Main Dashboard
+![Main Dashboard](screenshots/main_dashboard.png)
+*Marketing Bot Pro main interface with customer segmentation and campaign management*
+
+### AI Content Generation
+![Content Generation](screenshots/content_generation.png)
+*AI-powered content generation for emails and social media posts*
+
+### Customer Segmentation
+![RFM Analysis](screenshots/rfm_analysis.png)
+*Advanced RFM analysis with 10 customer segments*
+
+### Campaign Management
+![Campaign Dashboard](screenshots/campaign_dashboard.png)
+*Multi-channel campaign management and analytics*
+
 
 - **Web Interface**: http://localhost:8501
 - **CLI Commands**: `python -m marketing_bot.main --help`

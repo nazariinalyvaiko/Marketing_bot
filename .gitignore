@@ -156,3 +156,8 @@ Thumbs.db
 *.backup
 *.bak
 *.old
+
+# Screenshots (keep in repo for documentation)
+# screenshots/*.png
+# screenshots/*.jpg
+# screenshots/*.jpeg
