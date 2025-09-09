@@ -503,3 +503,31 @@ with tab4:
 # Footer
 st.markdown("---")
 st.markdown("Built with ❤️ using Streamlit • Marketing Bot Pro v2.0")
+
+# Dark theme CSS
+st.markdown("""
+<style>
+    @media (prefers-color-scheme: dark) {
+        .metric-card {
+            background: #2d3748 !important;
+            color: #e2e8f0 !important;
+            border-left-color: #667eea !important;
+        }
+        .campaign-card {
+            background: #4a5568 !important;
+            color: #e2e8f0 !important;
+            border-color: #718096 !important;
+        }
+        .success-message {
+            background: #22543d !important;
+            color: #9ae6b4 !important;
+            border-color: #38a169 !important;
+        }
+        .warning-message {
+            background: #744210 !important;
+            color: #fbd38d !important;
+            border-color: #ed8936 !important;
+        }
+    }
+</style>
+""", unsafe_allow_html=True)
