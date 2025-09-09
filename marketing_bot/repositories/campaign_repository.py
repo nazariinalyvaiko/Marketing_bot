@@ -5,8 +5,7 @@ from pathlib import Path
 from typing import List, Optional
 from uuid import UUID
 
-from marketing_bot.models.campaign import (Campaign, CampaignResult,
-                                           CampaignStatus)
+from marketing_bot.models.campaign import Campaign, CampaignResult, CampaignStatus
 from marketing_bot.utils.logger import get_logger
 
 logger = get_logger(__name__)

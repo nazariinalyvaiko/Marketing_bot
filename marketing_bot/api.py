@@ -172,11 +172,12 @@ def segment(req: SegmentRequest) -> List[Dict[str, Any]]:
 def generate(req: GenerateRequest) -> Dict[str, Any]:
     """Legacy generation endpoint."""
     try:
-        from marketing_bot.generation.openai_client import \
-            generate_marketing_text
-        from marketing_bot.generation.templates import (EMAIL_TEMPLATE,
-                                                        SOCIAL_POST_TEMPLATE,
-                                                        render_prompt)
+        from marketing_bot.generation.openai_client import generate_marketing_text
+        from marketing_bot.generation.templates import (
+            EMAIL_TEMPLATE,
+            SOCIAL_POST_TEMPLATE,
+            render_prompt,
+        )
 
         ctx = req.model_dump()
         email_content = None

@@ -4,12 +4,18 @@ from typing import List, Optional
 from uuid import UUID
 
 from marketing_bot.generation.openai_client import generate_marketing_text
-from marketing_bot.generation.templates import (EMAIL_TEMPLATE,
-                                                SOCIAL_POST_TEMPLATE,
-                                                render_prompt)
+from marketing_bot.generation.templates import (
+    EMAIL_TEMPLATE,
+    SOCIAL_POST_TEMPLATE,
+    render_prompt,
+)
 from marketing_bot.metrics.tracker import MetricsTracker
-from marketing_bot.models.campaign import (Campaign, CampaignResult,
-                                           CampaignStatus, CampaignType)
+from marketing_bot.models.campaign import (
+    Campaign,
+    CampaignResult,
+    CampaignStatus,
+    CampaignType,
+)
 from marketing_bot.repositories.campaign_repository import CampaignRepository
 from marketing_bot.segmentation.rfm import score_rfm
 from marketing_bot.senders.email_sender import EmailMessage, send_email

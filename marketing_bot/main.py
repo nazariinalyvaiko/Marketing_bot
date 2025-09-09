@@ -8,9 +8,11 @@ import pandas as pd
 from dotenv import load_dotenv
 
 from marketing_bot.generation.openai_client import generate_marketing_text
-from marketing_bot.generation.templates import (EMAIL_TEMPLATE,
-                                                SOCIAL_POST_TEMPLATE,
-                                                render_prompt)
+from marketing_bot.generation.templates import (
+    EMAIL_TEMPLATE,
+    SOCIAL_POST_TEMPLATE,
+    render_prompt,
+)
 from marketing_bot.segmentation.rfm import score_rfm
 from marketing_bot.senders.email_sender import EmailMessage, send_email
 from marketing_bot.senders.social_sender import SocialPost, send_social_post
