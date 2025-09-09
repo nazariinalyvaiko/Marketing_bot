@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2025-09-09T10:34:06.434399",
+    "campaign_id": "842221e3-4b3f-4879-843e-d397299ebb6d",
+    "customer_id": "C001",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T10:34:06.436987",
+    "campaign_id": "842221e3-4b3f-4879-843e-d397299ebb6d",
+    "customer_id": "C003",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T10:34:06.442702",
+    "campaign_id": "842221e3-4b3f-4879-843e-d397299ebb6d",
+    "customer_id": "C006",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T10:34:54.553377",
+    "campaign_id": "d0dd86c8-3d8f-4ecc-bd8b-8f0593717050",
+    "customer_id": "C001",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T10:34:54.556990",
+    "campaign_id": "d0dd86c8-3d8f-4ecc-bd8b-8f0593717050",
+    "customer_id": "C003",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T10:34:54.560659",
+    "campaign_id": "d0dd86c8-3d8f-4ecc-bd8b-8f0593717050",
+    "customer_id": "C006",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T13:37:10.516492",
+    "campaign_id": "942e5500-9dfd-4bb3-9126-d66165edc6aa",
+    "customer_id": "C001",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T13:37:10.522094",
+    "campaign_id": "942e5500-9dfd-4bb3-9126-d66165edc6aa",
+    "customer_id": "C003",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T13:37:10.526634",
+    "campaign_id": "942e5500-9dfd-4bb3-9126-d66165edc6aa",
+    "customer_id": "C006",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T13:41:00.374838",
+    "campaign_id": "99c1f04a-3e25-40e3-9913-b06c03b941c6",
+    "customer_id": "C001",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T13:41:00.379306",
+    "campaign_id": "99c1f04a-3e25-40e3-9913-b06c03b941c6",
+    "customer_id": "C003",
+    "success": true,
+    "error": null
+  },
+  {
+    "timestamp": "2025-09-09T13:41:00.384125",
+    "campaign_id": "99c1f04a-3e25-40e3-9913-b06c03b941c6",
+    "customer_id": "C006",
+    "success": true,
+    "error": null
+  }
+]
