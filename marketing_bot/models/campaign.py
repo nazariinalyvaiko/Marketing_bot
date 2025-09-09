@@ -34,7 +34,7 @@ class Campaign(BaseModel):
     status: CampaignStatus = CampaignStatus.DRAFT
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: datetime = Field(default_factory=datetime.utcnow)
-    
+
     class Config:
         use_enum_values = True
 

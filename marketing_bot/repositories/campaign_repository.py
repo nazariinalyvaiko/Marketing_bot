@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
 from uuid import UUID
 
-from marketing_bot.models.campaign import Campaign, CampaignResult, CampaignStatus
+from marketing_bot.models.campaign import (Campaign, CampaignResult,
+                                           CampaignStatus)
 from marketing_bot.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -14,13 +14,13 @@ logger = get_logger(__name__)
 
 class CampaignRepository:
     """Simple file-based repository for campaigns and results."""
-    
+
     def __init__(self, data_dir: Path = Path("data")):
         self.data_dir = data_dir
         self.data_dir.mkdir(exist_ok=True)
         self.campaigns_file = self.data_dir / "campaigns.json"
         self.results_file = self.data_dir / "campaign_results.json"
-        
+
         # Initialize files if they don't exist
         if not self.campaigns_file.exists():
             self.campaigns_file.write_text("[]")
@@ -47,10 +47,10 @@ class CampaignRepository:
         """List campaigns, optionally filtered by status."""
         campaigns = self._load_campaigns()
         result = [Campaign(**data) for data in campaigns]
-        
+
         if status:
             result = [c for c in result if c.status == status]
-        
+
         return result
 
     async def update(self, campaign: Campaign) -> Campaign:
@@ -76,7 +76,8 @@ class CampaignRepository:
         """Get results for a specific campaign."""
         results = self._load_results()
         campaign_results = [
-            CampaignResult(**data) for data in results 
+            CampaignResult(**data)
+            for data in results
             if data["campaign_id"] == str(campaign_id)
         ]
         return campaign_results
